@@ -3,7 +3,8 @@ body {
 }
 
 .content {
-    background-color: #FFE8E8;
+    //background-color: #FFE8E8;
+    background-color: white;
     border-radius: 20px;
     padding-left: 30px;
     padding-right: 30px;
@@ -160,4 +161,10 @@ nav.primary ul li a:hover {
         background-image: url('https://placeholdit.imgix.net/~text?txtsize=14&txt=banner+%28900x256%29&w=900&h=256&txttrack=0');
         height: 256px;
     }
+}
+
+hr {
+    background:url('/assets/images/cakes.jpg') repeat-x top left;
+    border: 0;
+    height: 65px;
 }
