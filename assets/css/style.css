@@ -1,87 +1,117 @@
-.large-box {
-    height: 688px;
-    overflow: hidden;
-}
-
-.small-box {
-    height: 344px;
-    overflow: hidden;
-}
-
-.nopadding {
-    padding: 0;
-    #margin-top: -1px;
-}
-
 body {
     background-image: url('../images/4924685-cake-background.jpg');
 }
 
 .content {
-    background-color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    background-color: #FFE8E8;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-body {
     margin-top: 30px;
-    margin-bottom: 30px;
-    border-radius: 10px;
 }
 
-#gallery {
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-@media only screen and (min-width: 320px) {
-    #logo {
-        margin: auto;
-    }
-
-    p {
-        font-size: 18px;
-    }
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width: 480px) {
-    #logo {
-        margin: auto;
-    }
-
-    p {
-        font-size: 18px;
-    }
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width: 768px) {
-    #logo {
-        margin: auto;
-    }
-
-    p {
-        font-size: 18px;
-    }
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width: 992px) {
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width: 1200px) {
-}
-
-p {
+.main-body p {
     font-family: 'Indie Flower', cursive;
+    font-size: 18px;
 }
 
-.nav a {
+.footer.content {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding-bottom: 1px;
+    padding-top: 5px
+}
+
+.footer.content p {
     font-family: 'Indie Flower', cursive;
+    font-size: 14px;
+}
+
+.navigation .logo {
+    margin: 0 auto;
+    width: 128px;
+}
+
+.navigation .social-buttons {
+    margin: 0 auto;
+    width: 199px;
+}
+
+nav.primary {
+    display: table;
+    margin: 0 auto;
+}
+
+nav.primary ul,
+nav.primary ul li {
+    margin: 0;
+}
+
+nav.primary select {
+    display: none;
+    width: 100%;
+    height: 28px;
+    margin: 21px 0;
+}
+
+nav.primary ul li {
+    display: inline;
+    position: relative;
+}
+
+nav.primary ul li a {
+    display: inline-block;
+    line-height: 49px;
+    padding: 0 14px;
+    //color: white;
+    //text-transform: uppercase;
+    //text-decoration: none;
     font-weight: bold;
+    letter-spacing: 0.08em;
+    font-family: 'Indie Flower', cursive;
     font-size: 28px;
+    //background: #999999;
 }
 
-.img-product {
-    padding-top: 10px;
-    padding-bottom: 10px;
+nav.primary ul li a:hover {
+    background: pink;
+    cursor: pointer;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+    .navigation .logo {
+        width: 256px;
+    }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+    .navigation .logo {
+        width: 256px;
+    }
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+    .navigation .logo {
+        width: 256px;
+    }
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+    .navigation .logo {
+        width: 256px;
+    }
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+    .navigation .logo {
+        width: 256px;
+    }
 }
