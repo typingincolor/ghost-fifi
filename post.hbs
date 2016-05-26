@@ -4,9 +4,8 @@
     the {{{body}}} of the default.hbs template, containing the blog header/footer. --}}
 
 {{!-- Everything inside the #post tags pulls data from the post --}}
-{{#is "page"}}<h1>arrrgh</h1>{{/is}}
 {{#post}}
-    <main class="content" role="main">
+    <main role="main">
         <article class="{{post_class}}">
 
             <header class="post-header">
