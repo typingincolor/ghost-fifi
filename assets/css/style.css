@@ -37,11 +37,7 @@ body {
     width: 128px;
 }
 
-.navigation .social-buttons {
-    margin: 0 auto;
-    width: 199px;
-}
-
+/* primary navigation */
 nav.primary {
     display: table;
     margin: 0 auto;
@@ -80,6 +76,38 @@ nav.primary ul li a {
 
 nav.primary ul li a:hover {
     background: pink;
+    cursor: pointer;
+}
+
+/* social buttons */
+nav.social {
+    display: table;
+    margin: 0 auto;
+}
+
+nav.social ul,
+nav.social ul li {
+    margin: 0;
+}
+
+nav.social select {
+    display: none;
+    width: 100%;
+    height: 28px;
+    margin: 21px 0;
+}
+
+nav.social ul li {
+    display: inline;
+    position: relative;
+}
+
+nav.social ul li a {
+    display: inline-block;
+    padding: 0 14px;
+}
+
+nav.social ul li a:hover {
     cursor: pointer;
 }
 
