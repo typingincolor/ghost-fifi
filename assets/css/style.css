@@ -36,6 +36,11 @@ body {
     padding-right: 1em;
     padding-bottom: 1em;
 }
+
+.post-list img {
+    height: 256px;
+}
+
 .navigation .logo {
     margin: 0 auto;
     width: 128px;
