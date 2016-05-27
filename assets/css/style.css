@@ -32,6 +32,10 @@ body {
     font-size: 0.9em;
 }
 
+.post-list {
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
 .navigation .logo {
     margin: 0 auto;
     width: 128px;
