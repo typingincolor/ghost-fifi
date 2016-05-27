@@ -1,20 +1,22 @@
 {{!-- Previous/next page links - only displayed on page 2+ --}}
-<div class="extra-pagination inner">
+<div class="row extra-pagination inner">
     {{pagination}}
 </div>
 
 {{!-- This is the post loop - each post will be output using this markup --}}
 
     {{#foreach posts}}
-        {{#if @even }}<div class="row">{{/if}}
+        {{#if @odd }}<div class="row">{{/if}}
         <div class="six columns post-list">
             <article class="{{post_class}}">
                 <header class="post-header">
-                    {{#if image}}
-                        <img class="u-max-full-width" src="{{image}}" />
-                    {{else}}
-                        <img class="u-max-full-width" src="http://placehold.it/256x256?text=missing image" />
-                    {{/if}}
+                    <div class="post-image">
+                        {{#if image}}
+                            <img class="u-max-full-width" src="{{image}}" />
+                        {{else}}
+                            <img class="u-max-full-width" src="http://placehold.it/256x256?text=missing image" />
+                        {{/if}}
+                    </div>
                     <h2 class="post-title"><a href="{{url}}">{{title}}</a></h2>
                 </header>
                 <section class="post-excerpt">

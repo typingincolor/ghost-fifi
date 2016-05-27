@@ -37,8 +37,13 @@ body {
     padding-bottom: 1em;
 }
 
+.post-list .post-image {
+    width: 128px;
+    margin: 0 auto;
+}
+
 .post-list img {
-    height: 256px;
+    height: 128px;
 }
 
 .navigation .logo {
@@ -170,34 +175,23 @@ nav.social ul li a:hover {
         font-size: 2.5em;
         font-weight: bold;
     }
+
+    .post-list .post-image {
+        width: 256px;
+        margin: 0 auto;
+    }
+
+    .post-list img {
+        height: 256px;
+    }
 }
 
 /* Larger than desktop */
 @media (min-width: 1000px) {
-    .navigation .logo {
-        width: 256px;
-    }
-    .main-body .blog-title {
-        max-width: 100%;
-        box-sizing: border-box;
-        background-image: url('https://placeholdit.imgix.net/~text?txtsize=14&txt=banner+%28900x256%29&w=900&h=256&txttrack=0');
-        height: 256px;
-        font-size: 2.5em;
-        font-weight: bold;
-    }
 }
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {
-    .navigation .logo {
-        width: 256px;
-    }
-    .main-body .blog-title {
-        max-width: 100%;
-        box-sizing: border-box;
-        background-image: url('https://placeholdit.imgix.net/~text?txtsize=14&txt=banner+%28900x256%29&w=900&h=256&txttrack=0');
-        height: 256px;
-    }
 }
 
 hr {
